@@ -1,0 +1,88 @@
+The key differences between the document object and the window object in JavaScript:
+
+1. Scope:
+=========
+document Object:
+----------------
+     - Represents the global browser window or frame.
+     - Encapsulates the entire browser environment.
+
+document Object:
+----------------
+     - Represents the HTML document loaded in the window.
+     - Limited to the content and structure of the specific HTML document.
+
+2. Hierarchy:
+=============
+
+window Object:
+-------------
+     - Serves as the top-level object in the browser environment.
+     - Contains properties like location, history, and methods like setTimeout.
+
+document Object:
+----------------
+     - Nested within the window object.
+     - Represents the DOM (Document Object Model) of the HTML document.
+
+3. Global Variables:
+===================
+
+window Object:
+-------------
+     - Variables declared without var, let, or const become properties of the window object.
+
+document Object:
+----------------
+     - Does not serve as a global scope for variables; they are specific to the document.
+
+4. Functionality:
+=================
+
+window Object:
+-------------
+     - Provides functionalities related to the browser environment.
+     - Controls the browser window, navigation, and global events.
+
+document Object:
+----------------
+     - Focuses on manipulating the content and structure of the HTML document.
+     - Allows access to DOM elements and provides methods for interaction.
+
+5. Global Methods:
+==================
+
+window Object:
+-------------
+     - Contains methods like alert(), confirm(), and setInterval().
+
+document Object:
+----------------
+     - Primarily concerned with methods related to DOM manipulation, such as getElementById() and createElement().
+
+6. Accessing Elements:
+=====================
+
+window Object:
+-------------
+     - Does not directly provide methods for accessing HTML elements.
+
+document Object:
+----------------
+     - Provides methods like getElementById(), getElementsByClassName(), and querySelector() for accessing and manipulating HTML elements.
+
+7. Events:
+===========
+
+window Object:
+-------------
+     - Handles global events like resizing the window (window.onresize).
+
+document Object:
+----------------
+     - Handles events related to the HTML document, such as clicks and keypresses (document.onclick, document.onkeypress).
+
+8. Relationship:
+================
+   - While distinct, the document object is a property of the window object. You can access it through window.document.
+
