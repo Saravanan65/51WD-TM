@@ -5,7 +5,7 @@ let url = "https://restcountries.com/v3.1/all";
 xhr.open(method, url);
 xhr.send();
 
-xhr.onload = function () {
+xhr.onload =  () =>{
 
   if (xhr.status === 200) {
 
