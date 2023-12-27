@@ -11,7 +11,7 @@ An object, is a reference data type. Variables that are assigned a reference val
 =================================================================================================
 
 Difference between http1 vs http2
-----------------------------------
+---------------------------------
 
 HTTP/1.1:
 

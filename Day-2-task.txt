@@ -13,7 +13,7 @@ document Object:
      - Limited to the content and structure of the specific HTML document.
 
 2. Hierarchy:
-=============
+============
 
 window Object:
 -------------
