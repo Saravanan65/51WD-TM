@@ -13,7 +13,6 @@ xhr.onload =  () =>{
     for (let i = 0; i < details.length; i++) {
 
       console.log("");
-      console.log("Flag", "==>", details[i].flags.png)
       console.log("Name", "==>", details[i].name.common)
       console.log("Region", "==>", details[i].region)
       console.log("Sub region", "==>", details[i].subregion)
