@@ -1,0 +1,9 @@
+#box{
+    width: 500px;
+    height: 100px;
+    border: 2px solid;
+
+}
+/* :hover#box{
+    background-color: blue;
+} */
